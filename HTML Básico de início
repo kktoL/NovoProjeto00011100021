@@ -5,7 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
     </head>
-    <body>
-        <script src="firstscript"></script>
+       <body>
+        <script>
+            document.body.style.backgroundImage = "url('https://media0.giphy.com/media/IB9foBA4PVkKA/giphy.gif')"
+        </script>
     </body>
 </html>
