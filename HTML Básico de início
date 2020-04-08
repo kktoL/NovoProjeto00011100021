@@ -11,12 +11,15 @@
         </style>
     </head>
        <body>
-       <input value="Click me" type="button" id="botao" onclick="clicado">
+       <input value="Click me" type="button" id="botao" onclick="clicado()">
+       <h1 id="newtxt"></h1>
         <script>
             document.body.style.backgroundImage = "url('https://tenor.com/view/club-clubpenguin-running-gif-7531860')"
             function clicado() {
-                document.body.style.backgroundImage = "url('https://media0.giphy.com/media/IB9foBA4PVkKA/giphy.gif')"
-            }
+                var newtxt = document.getElementById('newtxt');
+                newtxt.innerHTML = 'HELLO WOLRD, ENTRE NO SERVIDOR DO DISCORD!!!  <br>  https://discord.gg/sBMV6qB';
+                document.body.style.backgroundImage = "url('https://media0.giphy.com/media/IB9foBA4PVkKA/giphy.gif')";
+            };
         </script>
     </body>
 </html>
