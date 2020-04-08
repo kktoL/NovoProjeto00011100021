@@ -11,10 +11,9 @@
                 -webkit-text-stroke-width: 3px; /* largura da borda */
                 -webkit-text-stroke-color: rgb(0,0,0); /* cor da borda */
             }
-            #botao {
-                margin-right: auto;
-                margin-left: auto;
-                border-radius: 7px;
+            #botao{
+                text-align: center;
+                border-radius: 15px;
                 padding: 20px;
             }
         </style>
@@ -23,7 +22,7 @@
        <input value="Click me" type="button" id="botao" onclick="clicado()">
        <h1 id="newtxt"></h1>
         <script>
-            document.body.style.backgroundImage = "url('https://tenor.com/view/club-clubpenguin-running-gif-7531860')"
+         document.body.style.backgroundImage = "url('https://tenor.com/view/club-clubpenguin-running-gif-7531860')"
             function clicado() {
                 var newtxt = document.getElementById('newtxt');
                 newtxt.innerHTML = 'HELLO WOLRD, ENTRE NO SERVIDOR DO DISCORD!!!  <br>  https://discord.gg/sBMV6qB';
