@@ -1,12 +1,14 @@
 <!DOCTYPE html>
-    <html lang="pt-br">
+    <html lang="pt-BR">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
         <style>
             body {
-                background-size : 100%;
+                color: blue;
+                -webkit-text-stroke-width: 3px; /* largura da borda */
+                -webkit-text-stroke-color: rgb(0,0,0); /* cor da borda */
             }
         </style>
     </head>
