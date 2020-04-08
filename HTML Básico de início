@@ -6,8 +6,12 @@
         <title>Document</title>
     </head>
        <body>
+       <input type="button" id="botao" onclick="clicado">
         <script>
-            document.body.style.backgroundImage = "url('https://media0.giphy.com/media/IB9foBA4PVkKA/giphy.gif')"
+            document.body.style.backgroundImage = "url('https://tenor.com/view/club-clubpenguin-running-gif-7531860')"
+            function clicado() {
+                document.body.style.backgroundImage = "url('https://media0.giphy.com/media/IB9foBA4PVkKA/giphy.gif')"
+            }
         </script>
     </body>
 </html>
