@@ -7,8 +7,15 @@
         <style>
             body {
                 color: blue;
+                font-size: 20pt;
                 -webkit-text-stroke-width: 3px; /* largura da borda */
                 -webkit-text-stroke-color: rgb(0,0,0); /* cor da borda */
+            }
+            #botao {
+                margin-right: auto;
+                margin-left: auto;
+                border-radius: 7px;
+                padding: 20px;
             }
         </style>
     </head>
